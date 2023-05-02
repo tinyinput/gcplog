@@ -180,7 +180,7 @@ func (l *Logger) output(s string) {
 		Severity: l.severity,
 		Message:  strings.TrimSpace(s),
 	})
-	fmt.Print(string(jsonBytes))
+	fmt.Println(string(jsonBytes))
 }
 
 // prefix returns the provided any slice, but with the severity of the logger object as the first element
