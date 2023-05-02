@@ -1,6 +1,6 @@
-// The package gcplog is a very simple logging library which allows you to use GPC's Structured Logging.
+// The package gcplog is a very simple logging library which allows you to use GCP's Structured Logging.
 //
-// Whilst Google provides an excellent Golang Logging Library (<https://pkg.go.dev/cloud.google.com/go/logging>).
+// Whilst Google provides an excellent Golang Logging Library (<https://pkg.go.dev/cloud.google.com/go/logging>),
 // I've generally found it's a lot more than I need when working on Google Cloud Functions.
 //
 // I like the simplicity of just being able to use the standard `fmt.Print` functions, but this will result in all of the output
